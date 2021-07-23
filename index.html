@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399"></script> -->
+    <title>Lightbox Gallery</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gallery">
+            <div class="image"><span><img src="./assets/img-1.jpg" alt="image1"></span></div>
+            <div class="image"><span><img src="./assets/img-2.jpg" alt="image2"></span></div>
+            <div class="image"><span><img src="./assets/img-3.jpg" alt="image3"></span></div>
+            <div class="image"><span><img src="./assets/img-4.jpg" alt="image4"></span></div>
+            <div class="image"><span><img src="./assets/img-5.jpg" alt="image5"></span></div>
+            <div class="image"><span><img src="./assets/img-6.jpg" alt="image6"></span></div>
+        </div>
+    </div>
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">
+                Image <p class="current-img">3</p>
+                of <p class="total-img">6</p>
+            </span>
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="img-box">
+            <div class="slide prev">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="slide prev">
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <img src="./assets/img-6.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
